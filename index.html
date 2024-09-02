@@ -1,9 +1,14 @@
+---
+title: About
+datatable: true
+---
 <!DOCTYPE HTML>
 <!--
 	Hyperspace by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+  -->
+<script src="https://kit.fontawesome.com/ba3e96d973.js" crossorigin="anonymous"></script>
 <html>
 	<head>
 		<title>Hyperspace by HTML5 UP</title>
@@ -16,13 +21,49 @@
 
 		<!-- Sidebar -->
 			<section id="sidebar">
-				<div class="inner">
+			  <div class="inner">
+			    <style>
+.roundedImage {
+    background: url(images/photo_mareike.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:250px;
+    height:250px;
+    margin-bottom: 1cm;
+}
+.bibentry {
+    margin-bottom: 1.5cm;
+}
+.yellowiconcolor {color:yellow;}
+
+			    </style>
+			    <style>
+			      .button5 {border-radius: 12px;}
+whitetext {
+		color: #ffffff;
+		font-weight: bold;
+}
+yellowtext {
+		color: yellow;
+	}
+			    </style>
+			    <style>
+			    .largeicon {
+  font-size: 32px;
+			    }
+			    </style>
+			    <div class="roundedImage"></div>
+			    
 					<nav>
 						<ul>
-							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">Who we are</a></li>
-							<li><a href="#two">What we do</a></li>
-							<li><a href="#three">Get in touch</a></li>
+							<li><a href="#intro">{{page.title}}</a></li>
+							<li><a href="#one">Publications</a></li>
+							<li><a href="#two">Teaching</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -34,11 +75,18 @@
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
-							<h1>Hyperspace</h1>
-							<p>Just another fine responsive site template designed by <a href="http://html5up.net">HTML5 UP</a><br />
-							and released for free under the <a href="http://html5up.net/license">Creative Commons</a>.</p>
+							<h1>Mareike Hartmann</h1>
+							<p> Hi, I am Mareike, a PostDoc at the <a href="https://www.coli.uni-saarland.de/groups/AK/">Computational Linguistics Group</a> of the Department of Language Science and Technology at Saarland University.</p>
+							<p>My current research interests are LLM-based agents interacting with external environments and augmented LLMs.</p>
+							<p>Before joining UdS, I worked as a researcher at the <a href="https://www.dfki.de/en/web/research/research-departments/interactive-machine-learning">Department for Interactive Machine Learning</a> at DFKI, and obtained a PhD from the <a href="https://coastalcph.github.io/">University of Copenhagen</a>.</p>
+							
+
+
+							
 							<ul class="actions">
-								<li><a href="#one" class="button scrolly">Learn more</a></li>
+							  <li><a href="mailto:mrkhartmann4@gmail.com" class="largeicon"><i class="fa-solid fa-envelope"></i></a></li>
+							  <li><a href="https://scholar.google.de/citations?user=f-NzaE8AAAAJ&hl=de&oi=ao" class="largeicon"><i class="fa-brands fa-google-scholar"></i></a></li>
+							  <li><a href="https://github.com/mahartmann" class="largeicon"><i class="fa-brands fa-github"></i></a></li>
 							</ul>
 						</div>
 					</section>
@@ -46,38 +94,143 @@
 				<!-- One -->
 					<section id="one" class="wrapper style2 spotlights">
 						<section>
-							<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
+							
 							<div class="content">
 								<div class="inner">
-									<h2>Sed ipsum dolor</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Feugiat consequat</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Ultricies aliquam</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
+								  <h1>Publications</h1>
+								  <h2>2024</h2>
+
+								  <div class="bibentry">
+								    Harsh Trivedi, Tushar Khot, Mareike Hartmann, Ruskin Manku, Vinty Dong, Edward Li, Shashank Gupta, Ashish Sabharwal, and Niranjan Balasubramanian <br>
+								    <a href="https://aclanthology.org/2024.acl-long.850"><whitetext>AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents</whitetext></a><br>
+								    Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers).<br>   
+
+								   <i class="fa-solid fa-trophy yellowiconcolor"></i><yellowtext> Best resource paper </yellowtext>
+								  </div>
+
+								  <div class="bibentry">
+								    Daniil Gurgurov, Mareike Hartmann, and Simon Ostermann <br>
+								    <a href="https://aclanthology.org/2024.kallm-1.7"><whitetext>Adapting Multilingual LLMs to Low-Resource Languages with Knowledge Graphs via Adapters</whitetext></a><br>
+								    Proceedings of the 1st Workshop on Knowledge Graphs and Large Language Models (KaLLM 2024).<br>   
+								  </div>
+
+								  <div class="bibentry">
+								    Archiki Prasad, Alexander Koller, Mareike Hartmann, Peter Clark, Ashish Sabharwal, Mohit Bansal, and Tushar Khot <br>
+								    <a href="https://doi.org/10.18653/v1/2024.findings-naacl.264"><whitetext>ADaPT: As-Needed Decomposition and Planning with Language Models</whitetext></a><br>
+								    Findings of the Association for Computational Linguistics: NAACL 2024.<br>   
+								  </div>
+								  <h2>2023</h2>
+
+								  <div class="bibentry">
+								    Siting Liang, Mareike Hartmann, and Daniel Sonntag <br>
+								    <a href="https://doi.org/10.18653/v1/2023.clinicalnlp-1.31"><whitetext>Cross-domain German Medical Named Entity Recognition using a Pre-Trained Language Model and Unified Medical Semantic Types</whitetext></a><br>
+								    Proceedings of the 5th Clinical Natural Language Processing Workshop.<br>   
+								  </div>
+
+								  <div class="bibentry">
+								    Aliki Anagnostopoulou, Mareike Hartmann, and Daniel Sonntag <br>
+								    <a href="https://doi.org/10.18653/v1/2023.sustainlp-1.19"><whitetext>Towards Adaptable and Interactive Image Captioning with Data Augmentation and Episodic Memory</whitetext></a><br>
+								    Proceedings of The Fourth Workshop on Simple and Efficient Natural Language Processing (SustaiNLP).<br>   
+								  </div>
+
+								  <div class="bibentry">
+								    Rasmus Jørgensen, Oliver Brandt, Mareike Hartmann, Xiang Dai, Christian Igel, and Desmond Elliott <br>
+								    <a href="https://doi.org/10.18653/v1/2023.findings-eacl.66"><whitetext>MultiFin: A Dataset for Multilingual Financial NLP</whitetext></a><br>
+								    Findings of the Association for Computational Linguistics: EACL 2023.<br>   
+								  </div>
+								  <h2>2022</h2>
+
+								  <div class="bibentry">
+								    Mareike Hartmann, Han Du, Nils Feldhus, Ivana Kruijff-Korbayová, and Daniel Sonntag <br>
+								    <a href="https://doi.org/10.1007/s13218-022-00780-8"><whitetext>XAINES: Explaining AI with narratives</whitetext></a><br>
+								    KI-Künstliche Intelligenz.<br>   
+								  </div>
+
+								  <div class="bibentry">
+								    Mareike Hartmann and Daniel Sonntag <br>
+								    <a href="https://doi.org/10.18653/v1/2022.lnls-1.5"><whitetext>A survey on improving NLP models with human explanations</whitetext></a><br>
+								    Proceedings of the First Workshop on Learning with Natural Language Supervision.<br>   
+								  </div>
+								  <h2>2021</h2>
+
+								  <div class="bibentry">
+								    Rasmus Kær Jørgensen, Mareike Hartmann, Xiang Dai, and Desmond Elliott <br>
+								    <a href="https://doi.org/10.18653/v1/2021.findings-emnlp.290"><whitetext>mDAPT: Multilingual Domain Adaptive Pretraining in a Single Model</whitetext></a><br>
+								    Findings of the Association for Computational Linguistics: EMNLP 2021.<br>   
+								  </div>
+
+								  <div class="bibentry">
+								    Nicolas Garneau, Mareike Hartmann, Anders Sandholm, Sebastian Ruder, Ivan Vulić, and Anders Søgaard <br>
+								    <a href="https://doi.org/10.1609/aaai.v35i14.17524"><whitetext>Analogy Training Multilingual Encoders</whitetext></a><br>
+								    Proceedings of the AAAI Conference on Artificial Intelligence.<br>   
+								  </div>
+
+								  <div class="bibentry">
+								    Mareike Hartmann and Anders Søgaard <br>
+								    <a href="https://aclanthology.org/2021.louhi-1.2"><whitetext>Multilingual Negation Scope Resolution for Clinical Text</whitetext></a><br>
+								    Proceedings of the 12th International Workshop on Health Text Mining and Information Analysis.<br>   
+								  </div>
+
+								  <div class="bibentry">
+								    Mareike Hartmann, Miryam de Lhoneux, Daniel Hershcovich, Yova Kementchedjhieva, Lukas Nielsen, Chen Qiu, and Anders Søgaard <br>
+								    <a href="https://doi.org/10.18653/v1/2021.conll-1.19"><whitetext>A Multilingual Benchmark for Probing Negation-Awareness with Minimal Pairs</whitetext></a><br>
+								    Proceedings of the 25th Conference on Computational Natural Language Learning.<br>   
+								  </div>
+								  <h2>2019</h2>
+
+								  <div class="bibentry">
+								    Mareike Hartmann, Yevgeniy Golovchenko, and Isabelle Augenstein <br>
+								    <a href="https://doi.org/10.18653/v1/D19-5006"><whitetext>Mapping (Dis-)Information Flow about the MH17 Plane Crash</whitetext></a><br>
+								    Proceedings of the Second Workshop on Natural Language Processing for Internet Freedom: Censorship, Disinformation, and Propaganda.<br>   
+								  </div>
+
+								  <div class="bibentry">
+								    Yova Kementchedjhieva, Mareike Hartmann, and Anders Søgaard <br>
+								    <a href="https://doi.org/10.18653/v1/D19-1328"><whitetext>Lost in Evaluation: Misleading Benchmarks for Bilingual Dictionary Induction</whitetext></a><br>
+								    Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP).<br>   
+								  </div>
+
+								  <div class="bibentry">
+								    Mareike Hartmann, Tallulah Jansen, Isabelle Augenstein, and Anders Søgaard <br>
+								    <a href="https://doi.org/10.18653/v1/N19-1142"><whitetext>Issue Framing in Online Discussion Fora</whitetext></a><br>
+								    Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers).<br>   
+								  </div>
+
+								  <div class="bibentry">
+								    Mareike Hartmann, Yova Kementchedjhieva, and Anders Sø gaard <br>
+								    <a href="https://proceedings.neurips.cc/paper_files/paper/2019/file/d15426b9c324676610fbb01360473ed8-Paper.pdf"><whitetext>Comparing Unsupervised Word Translation Methods Step by Step</whitetext></a><br>
+								    Advances in Neural Information Processing Systems.<br>   
+								  </div>
+								  <h2>2018</h2>
+
+								  <div class="bibentry">
+								    Yevgeniy Golovchenko, Mareike Hartmann, and Rebecca Adler-Nissen <br>
+								    <a href="https://doi.org/10.1093/ia/iiy148"><whitetext>State, media and civil society in the information warfare over Ukraine: citizen curators of digital disinformation</whitetext></a><br>
+								    International affairs.<br>   
+								  </div>
+
+								  <div class="bibentry">
+								    Mareike Hartmann, Yova Kementchedjhieva, and Anders Søgaard <br>
+								    <a href="https://doi.org/10.18653/v1/D18-1056"><whitetext>Why is unsupervised alignment of English embeddings from different algorithms so hard?</whitetext></a><br>
+								    Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing.<br>   
+								  </div>
+
+								  <div class="bibentry">
+								    Bolette Pedersen, Sanni Nimb, Anders Søgaard, Mareike Hartmann, and Sussi Olsen <br>
+								    <a href="https://aclanthology.org/L18-1378"><whitetext>A Danish FrameNet Lexicon and an Annotated Corpus Used for Training and Evaluating a Semantic Frame Classifier</whitetext></a><br>
+								    Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC 2018).<br>   
+								  </div>
+
+								  <div class="bibentry">
+								    Mareike Hartmann and Anders Søgaard <br>
+								    <a href="https://doi.org/10.18653/v1/W18-3021"><whitetext>Limitations of Cross-Lingual Learning from Image Search</whitetext></a><br>
+								    Proceedings of the Third Workshop on Representation Learning for NLP.<br>   
+								  </div>
+
+
+								   
+							
+								  
 								</div>
 							</div>
 						</section>
@@ -86,106 +239,30 @@
 				<!-- Two -->
 					<section id="two" class="wrapper style3 fade-up">
 						<div class="inner">
-							<h2>What we do</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
-							<div class="features">
-								<section>
-									<span class="icon solid major fa-code"></span>
-									<h3>Lorem ipsum amet</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-lock"></span>
-									<h3>Aliquam sed nullam</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-cog"></span>
-									<h3>Sed erat ullam corper</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-desktop"></span>
-									<h3>Veroeros quis lorem</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-link"></span>
-									<h3>Urna quis bibendum</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon major fa-gem"></span>
-									<h3>Aliquam urna dapibus</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-							</div>
-							<ul class="actions">
-								<li><a href="generic.html" class="button">Learn more</a></li>
-							</ul>
-						</div>
+						  <h1>Teaching</h1>
+						  <h2>At Saarland University</h2>
+						  <br>
+						  <h3>SS 2024</h3>
+						  <li><span class="fa-li"><i class="fa-regular fa-square"></i></span> Semantic Theory</li>
+
+						  <br>
+						  <h3>WS 2023/2024</h3>
+						  <li><span class="fa-li"><i class="fa-regular fa-square"></i></span> Foundations of Linguistics (Semantics)</li>
+						  <li><span class="fa-li"><i class="fa-regular fa-square"></i></span><a href="https://docs.google.com/document/d/1dPlQ1Rl7H8mi8W6nNtOXxIY54VawkcOrFhUUcU5WpjI/edit?usp=sharing">Seminar: NLP for Low-Resource Languages</a></li>
+						  <li><span class="fa-li"><i class="fa-regular fa-square"></i></span> Guest lecture: NLP for low-resource settings</li>
+						  <br>
+						  <h3>SS 2023</h3>
+						  <li><span class="fa-li"><i class="fa-regular fa-square"></i></span> Semantic Theory</li>
+
+						  <br>
+						  <h3>WS 2022/2023</h3>
+						  <li><span class="fa-li"><i class="fa-regular fa-square"></i></span> Foundations of Linguistics (Semantics)</li>
+						  <li><span class="fa-li"><i class="fa-regular fa-square"></i></span><a href="https://mahartmann.github.io/WS22_cll/">Seminar: Cross-Lingual Learning</a></li>
+						  <li><span class="fa-li"><i class="fa-regular fa-square"></i></span><a href="https://mahartmann.github.io/WS22_lfex/">Seminar: Learning from Explanations</a></li>
+						  
+						 </div
 					</section>
 
-				<!-- Three -->
-					<section id="three" class="wrapper style1 fade-up">
-						<div class="inner">
-							<h2>Get in touch</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
-							<div class="split style1">
-								<section>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="name">Name</label>
-												<input type="text" name="name" id="name" />
-											</div>
-											<div class="field half">
-												<label for="email">Email</label>
-												<input type="text" name="email" id="email" />
-											</div>
-											<div class="field">
-												<label for="message">Message</label>
-												<textarea name="message" id="message" rows="5"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><a href="" class="button submit">Send Message</a></li>
-										</ul>
-									</form>
-								</section>
-								<section>
-									<ul class="contact">
-										<li>
-											<h3>Address</h3>
-											<span>12345 Somewhere Road #654<br />
-											Nashville, TN 00000-0000<br />
-											USA</span>
-										</li>
-										<li>
-											<h3>Email</h3>
-											<a href="#">user@untitled.tld</a>
-										</li>
-										<li>
-											<h3>Phone</h3>
-											<span>(000) 000-0000</span>
-										</li>
-										<li>
-											<h3>Social</h3>
-											<ul class="icons">
-												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-												<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-												<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-											</ul>
-										</li>
-									</ul>
-								</section>
-							</div>
-						</div>
-					</section>
-
-			</div>
 
 		<!-- Footer -->
 			<footer id="footer" class="wrapper style1-alt">

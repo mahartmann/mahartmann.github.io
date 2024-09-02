@@ -1,0 +1,402 @@
+@inproceedings{appworld,
+    title = "{A}pp{W}orld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents",
+    author = "Trivedi, Harsh  and
+      Khot, Tushar  and
+      Hartmann, Mareike  and
+      Manku, Ruskin  and
+      Dong, Vinty  and
+      Li, Edward  and
+      Gupta, Shashank  and
+      Sabharwal, Ashish  and
+      Balasubramanian, Niranjan",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.acl-long.850",
+    pages = "16022--16076",
+    abstract = "Autonomous agents that address day-to-day digital tasks (e.g., ordering groceries for a household), must not only operate multiple apps (e.g., notes, messaging, shopping app) via APIs, but also generate rich code with complex control flow in an iterative manner based on their interaction with the environment. However, existing benchmarks for tool use are inadequate, as they only cover tasks that require a simple sequence of API calls. To remedy this gap, we built AppWorld Engine, a high-quality execution environment (60K lines of code) of 9 day-to-day apps operable via 457 APIs and populated with realistic digital activities simulating the lives of {\textasciitilde}100 fictitious users. We then created AppWorld Benchmark (40K lines of code), a suite of 750 natural, diverse, and challenging autonomous agent tasks requiring rich and interactive code generation. It supports robust programmatic evaluation with state-based unit tests, allowing for different ways of completing a task while also checking for unexpected changes, i.e., collateral damage. The state-of-the-art LLM, GPT4O, solves only {\textasciitilde}49{\%} of our {`}normal{'} tasks and {\textasciitilde}30{\%} of {`}challenge{'} tasks, while other models solve at least 16{\%} fewer. This highlights the benchmark{'}s difficulty and AppWorld{'}s potential to push the frontiers of interactive coding agents.",
+    award="Best resource paper"
+}
+
+
+@inproceedings{gurgurov-etal-2024-adapting,
+    title = "Adapting Multilingual {LLM}s to Low-Resource Languages with Knowledge Graphs via Adapters",
+    author = "Gurgurov, Daniil  and
+      Hartmann, Mareike  and
+      Ostermann, Simon",
+    editor = "Biswas, Russa  and
+      Kaffee, Lucie-Aim{\'e}e  and
+      Agarwal, Oshin  and
+      Minervini, Pasquale  and
+      Singh, Sameer  and
+      de Melo, Gerard",
+    booktitle = "Proceedings of the 1st Workshop on Knowledge Graphs and Large Language Models (KaLLM 2024)",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.kallm-1.7",
+    pages = "63--74",
+    abstract = "This paper explores the integration of graph knowledge from linguistic ontologies into multilingual Large Language Models (LLMs) using adapters to improve performance for low-resource languages (LRLs) in sentiment analysis (SA) and named entity recognition (NER). Building upon successful parameter-efficient fine-tuning techniques, such as K-ADAPTER and MAD-X, we propose a similar approach for incorporating knowledge from multilingual graphs, connecting concepts in various languages with each other through linguistic relationships, into multilingual LLMs for LRLs. Specifically, we focus on eight LRLs {---} Maltese, Bulgarian, Indonesian, Nepali, Javanese, Uyghur, Tibetan, and Sinhala {---} and employ language-specific adapters fine-tuned on data extracted from the language-specific section of ConceptNet, aiming to enable knowledge transfer across the languages covered by the knowledge graph. We compare various fine-tuning objectives, including standard Masked Language Modeling (MLM), MLM with full-word masking, and MLM with targeted masking, to analyze their effectiveness in learning and integrating the extracted graph data. Through empirical evaluation on language-specific tasks, we assess how structured graph knowledge affects the performance of multilingual LLMs for LRLs in SA and NER, providing insights into the potential benefits of adapting language models for low-resource scenarios.",
+}
+
+
+@inproceedings{prasad-etal-2024-adapt,
+    title = "{AD}a{PT}: As-Needed Decomposition and Planning with Language Models",
+    author = "Prasad, Archiki  and
+      Koller, Alexander  and
+      Hartmann, Mareike  and
+      Clark, Peter  and
+      Sabharwal, Ashish  and
+      Bansal, Mohit  and
+      Khot, Tushar",
+    editor = "Duh, Kevin  and
+      Gomez, Helena  and
+      Bethard, Steven",
+    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2024",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-naacl.264",
+    doi = "10.18653/v1/2024.findings-naacl.264",
+    pages = "4226--4252",
+    abstract = "Large Language Models (LLMs) are increasingly being used for interactive decision-making tasks requiring planning and adapting to the environment. Recent works employ LLMs-as-agents in broadly two ways: iteratively determining the next action (iterative executors) or generating plans and executing sub-tasks using LLMs (plan-and-execute). However, these methods struggle with task complexity, as the inability to execute any sub-task may lead to task failure. To address these shortcomings, we introduce As-Needed Decomposition and Planning for complex Tasks (ADaPT), an approach that explicitly plans and decomposes complex sub-tasks as-needed, i.e., when the LLM is unable to execute them. ADaPT recursively decomposes sub-tasks to adapt to both task complexity and LLM capability. Our results demonstrate that ADaPT substantially outperforms established strong baselines, achieving success rates up to 28.3{\%} higher in ALFWorld, 27{\%} in WebShop, and 33{\%} in TextCraft {--} a novel compositional dataset that we introduce. Through extensive analysis, we illustrate the importance of multilevel decomposition and establish that ADaPT dynamically adjusts to the capabilities of the executor LLM as well as to task complexity.",
+}
+
+
+@inproceedings{liang-etal-2023-cross,
+    title = "Cross-domain {G}erman Medical Named Entity Recognition using a Pre-Trained Language Model and Unified Medical Semantic Types",
+    author = "Liang, Siting  and
+      Hartmann, Mareike  and
+      Sonntag, Daniel",
+    editor = "Naumann, Tristan  and
+      Ben Abacha, Asma  and
+      Bethard, Steven  and
+      Roberts, Kirk  and
+      Rumshisky, Anna",
+    booktitle = "Proceedings of the 5th Clinical Natural Language Processing Workshop",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.clinicalnlp-1.31",
+    doi = "10.18653/v1/2023.clinicalnlp-1.31",
+    pages = "259--271",
+    abstract = "Information extraction from clinical text has the potential to facilitate clinical research and personalized clinical care, but annotating large amounts of data for each set of target tasks is prohibitive. We present a German medical Named Entity Recognition (NER) system capable of cross-domain knowledge transferring. The system builds on a pre-trained German language model and a token-level binary classifier, employing semantic types sourced from the Unified Medical Language System (UMLS) as entity labels to identify corresponding entity spans within the input text. To enhance the system{'}s performance and robustness, we pre-train it using a medical literature corpus that incorporates UMLS semantic term annotations. We evaluate the system{'}s effectiveness on two German annotated datasets obtained from different clinics in zero- and few-shot settings. The results show that our approach outperforms task-specific Condition Random Fields (CRF) classifiers in terms of accuracy. Our work contributes to developing robust and transparent German medical NER models that can support the extraction of information from various clinical texts.",
+}
+
+
+@inproceedings{anagnostopoulou-etal-2023-towards,
+    title = "Towards Adaptable and Interactive Image Captioning with Data Augmentation and Episodic Memory",
+    author = "Anagnostopoulou, Aliki  and
+      Hartmann, Mareike  and
+      Sonntag, Daniel",
+    editor = "Sadat Moosavi, Nafise  and
+      Gurevych, Iryna  and
+      Hou, Yufang  and
+      Kim, Gyuwan  and
+      Kim, Young Jin  and
+      Schuster, Tal  and
+      Agrawal, Ameeta",
+    booktitle = "Proceedings of The Fourth Workshop on Simple and Efficient Natural Language Processing (SustaiNLP)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada (Hybrid)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.sustainlp-1.19",
+    doi = "10.18653/v1/2023.sustainlp-1.19",
+    pages = "245--256",
+}
+
+
+@inproceedings{jorgensen-etal-2023-multifin,
+    title = "{M}ulti{F}in: A Dataset for Multilingual Financial {NLP}",
+    author = "J{\o}rgensen, Rasmus  and
+      Brandt, Oliver  and
+      Hartmann, Mareike  and
+      Dai, Xiang  and
+      Igel, Christian  and
+      Elliott, Desmond",
+    editor = "Vlachos, Andreas  and
+      Augenstein, Isabelle",
+    booktitle = "Findings of the Association for Computational Linguistics: EACL 2023",
+    month = may,
+    year = "2023",
+    address = "Dubrovnik, Croatia",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-eacl.66",
+    doi = "10.18653/v1/2023.findings-eacl.66",
+    pages = "894--909",
+    abstract = "Financial information is generated and distributed across the world, resulting in a vast amount of domain-specific multilingual data. Multilingual models adapted to the financial domain would ease deployment when an organization needs to work with multiple languages on a regular basis. For the development and evaluation of such models, there is a need for multilingual financial language processing datasets. We describe MultiFin {--} a publicly available financial dataset consisting of real-world article headlines covering 15 languages across different writing systems and language families. The dataset consists of hierarchical label structure providing two classification tasks: multi-label and multi-class. We develop our annotation schema based on a real-world application and annotate our dataset using both {`}label by native-speaker{'} and {`}translate-then-label{'} approaches. The evaluation of several popular multilingual models, e.g., mBERT, XLM-R, and mT5, show that although decent accuracy can be achieved in high-resource languages, there is substantial room for improvement in low-resource languages.",
+}
+
+
+@article{hartmann2022xaines,
+  title={XAINES: Explaining AI with narratives},
+  author={Hartmann, Mareike and Du, Han and Feldhus, Nils and Kruijff-Korbayov{\'a}, Ivana and Sonntag, Daniel},
+  journal={KI-K{\"u}nstliche Intelligenz},
+  volume={36},
+  number={3},
+  pages={287--296},
+  year={2022},
+  publisher={Springer},
+  doi={10.1007/s13218-022-00780-8}
+}
+
+
+@inproceedings{hartmann-sonntag-2022-survey,
+    title = "A survey on improving {NLP} models with human explanations",
+    author = "Hartmann, Mareike  and
+      Sonntag, Daniel",
+    editor = "Andreas, Jacob  and
+      Narasimhan, Karthik  and
+      Nematzadeh, Aida",
+    booktitle = "Proceedings of the First Workshop on Learning with Natural Language Supervision",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.lnls-1.5",
+    doi = "10.18653/v1/2022.lnls-1.5",
+    pages = "40--47",
+    abstract = "Training a model with access to human explanations can improve data efficiency and model performance on in- and out-of-domain data. Adding to these empirical findings, similarity with the process of human learning makes learning from explanations a promising way to establish a fruitful human-machine interaction. Several methods have been proposed for improving natural language processing (NLP) models with human explanations, that rely on different explanation types and mechanism for integrating these explanations into the learning process. These methods are rarely compared with each other, making it hard for practitioners to choose the best combination of explanation type and integration mechanism for a specific use-case. In this paper, we give an overview of different methods for learning from human explanations, and discuss different factors that can inform the decision of which method to choose for a specific use-case.",
+}
+
+
+@inproceedings{kaer-jorgensen-etal-2021-mdapt-multilingual,
+    title = "m{DAPT}: Multilingual Domain Adaptive Pretraining in a Single Model",
+    author = "K{\ae}r J{\o}rgensen, Rasmus  and
+      Hartmann, Mareike  and
+      Dai, Xiang  and
+      Elliott, Desmond",
+    editor = "Moens, Marie-Francine  and
+      Huang, Xuanjing  and
+      Specia, Lucia  and
+      Yih, Scott Wen-tau",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2021",
+    month = nov,
+    year = "2021",
+    address = "Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.findings-emnlp.290",
+    doi = "10.18653/v1/2021.findings-emnlp.290",
+    pages = "3404--3418",
+    abstract = "Domain adaptive pretraining, i.e. the continued unsupervised pretraining of a language model on domain-specific text, improves the modelling of text for downstream tasks within the domain. Numerous real-world applications are based on domain-specific text, e.g. working with financial or biomedical documents, and these applications often need to support multiple languages. However, large-scale domain-specific multilingual pretraining data for such scenarios can be difficult to obtain, due to regulations, legislation, or simply a lack of language- and domain-specific text. One solution is to train a single multilingual model, taking advantage of the data available in as many languages as possible. In this work, we explore the benefits of domain adaptive pretraining with a focus on adapting to multiple languages within a specific domain. We propose different techniques to compose pretraining corpora that enable a language model to both become domain-specific and multilingual. Evaluation on nine domain-specific datasets{---}for biomedical named entity recognition and financial sentence classification{---}covering seven different languages show that a single multilingual domain-specific model can outperform the general multilingual model, and performs close to its monolingual counterpart. This finding holds across two different pretraining methods, adapter-based pretraining and full model pretraining.",
+}
+
+
+@article{Garneau_Hartmann_Sandholm_Ruder_Vulić_Søgaard_2021, title={Analogy Training Multilingual Encoders}, volume={35}, url={https://ojs.aaai.org/index.php/AAAI/article/view/17524}, DOI={10.1609/aaai.v35i14.17524}, abstractNote={Language encoders encode words and phrases in ways that capture their local semantic relatedness, but are known to be globally inconsistent. Global inconsistency can seemingly be corrected for, in part, by leveraging signals from knowledge bases, but previous results are partial and limited to monolingual English encoders. We extract a large-scale multilingual, multi-word analogy dataset from Wikidata for diagnosing and correcting for global inconsistencies, and then implement a four-way Siamese BERT architecture for grounding multilingual BERT (mBERT) in Wikidata through analogy training. We show that analogy training not only improves the global consistency of mBERT, as well as the isomorphism of language-specific subspaces, but also leads to consistent gains on downstream tasks such as bilingual dictionary induction and sentence retrieval.}, number={14}, journal={Proceedings of the AAAI Conference on Artificial Intelligence}, author={Garneau, Nicolas and Hartmann, Mareike and Sandholm, Anders and Ruder, Sebastian and Vulić, Ivan and Søgaard, Anders}, year={2021}, month={May}, pages={12884-12892} }
+
+@inproceedings{hartmann-sogaard-2021-multilingual,
+    title = "Multilingual Negation Scope Resolution for Clinical Text",
+    author = "Hartmann, Mareike  and
+      S{\o}gaard, Anders",
+    editor = "Holderness, Eben  and
+      Jimeno Yepes, Antonio  and
+      Lavelli, Alberto  and
+      Minard, Anne-Lyse  and
+      Pustejovsky, James  and
+      Rinaldi, Fabio",
+    booktitle = "Proceedings of the 12th International Workshop on Health Text Mining and Information Analysis",
+    month = apr,
+    year = "2021",
+    address = "online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.louhi-1.2",
+    pages = "7--18",
+    abstract = "Negation scope resolution is key to high-quality information extraction from clinical texts, but so far, efforts to make encoders used for information extraction negation-aware have been limited to English. We present a universal approach to multilingual negation scope resolution, that overcomes the lack of training data by relying on disparate resources in different languages and domains. We evaluate two approaches to learn from these resources, training on combined data and training in a multi-task learning setup. Our experiments show that zero-shot scope resolution in clinical text is possible, and that combining available resources improves performance in most cases.",
+}
+
+
+@inproceedings{hartmann-etal-2021-multilingual,
+    title = "A Multilingual Benchmark for Probing Negation-Awareness with Minimal Pairs",
+    author = "Hartmann, Mareike  and
+      de Lhoneux, Miryam  and
+      Hershcovich, Daniel  and
+      Kementchedjhieva, Yova  and
+      Nielsen, Lukas  and
+      Qiu, Chen  and
+      S{\o}gaard, Anders",
+    editor = "Bisazza, Arianna  and
+      Abend, Omri",
+    booktitle = "Proceedings of the 25th Conference on Computational Natural Language Learning",
+    month = nov,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.conll-1.19",
+    doi = "10.18653/v1/2021.conll-1.19",
+    pages = "244--257",
+    abstract = "Negation is one of the most fundamental concepts in human cognition and language, and several natural language inference (NLI) probes have been designed to investigate pretrained language models{'} ability to detect and reason with negation. However, the existing probing datasets are limited to English only, and do not enable controlled probing of performance in the absence or presence of negation. In response, we present a multilingual (English, Bulgarian, German, French and Chinese) benchmark collection of NLI examples that are grammatical and correctly labeled, as a result of manual inspection and reformulation. We use the benchmark to probe the negation-awareness of multilingual language models and find that models that correctly predict examples with negation cues, often fail to correctly predict their counter-examples without negation cues, even when the cues are irrelevant for semantic inference.",
+}
+
+
+@inproceedings{hartmann-etal-2019-mapping,
+    title = "Mapping (Dis-)Information Flow about the {MH}17 Plane Crash",
+    author = "Hartmann, Mareike  and
+      Golovchenko, Yevgeniy  and
+      Augenstein, Isabelle",
+    editor = "Feldman, Anna  and
+      Da San Martino, Giovanni  and
+      Barr{\'o}n-Cede{\~n}o, Alberto  and
+      Brew, Chris  and
+      Leberknight, Chris  and
+      Nakov, Preslav",
+    booktitle = "Proceedings of the Second Workshop on Natural Language Processing for Internet Freedom: Censorship, Disinformation, and Propaganda",
+    month = nov,
+    year = "2019",
+    address = "Hong Kong, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/D19-5006",
+    doi = "10.18653/v1/D19-5006",
+    pages = "45--55",
+    abstract = "Digital media enables not only fast sharing of information, but also disinformation. One prominent case of an event leading to circulation of disinformation on social media is the MH17 plane crash. Studies analysing the spread of information about this event on Twitter have focused on small, manually annotated datasets, or used proxys for data annotation. In this work, we examine to what extent text classifiers can be used to label data for subsequent content analysis, in particular we focus on predicting pro-Russian and pro-Ukrainian Twitter content related to the MH17 plane crash. Even though we find that a neural classifier improves over a hashtag based baseline, labeling pro-Russian and pro-Ukrainian content with high precision remains a challenging problem. We provide an error analysis underlining the difficulty of the task and identify factors that might help improve classification in future work. Finally, we show how the classifier can facilitate the annotation task for human annotators.",
+}
+
+
+@inproceedings{kementchedjhieva-etal-2019-lost,
+    title = "Lost in Evaluation: Misleading Benchmarks for Bilingual Dictionary Induction",
+    author = "Kementchedjhieva, Yova  and
+      Hartmann, Mareike  and
+      S{\o}gaard, Anders",
+    editor = "Inui, Kentaro  and
+      Jiang, Jing  and
+      Ng, Vincent  and
+      Wan, Xiaojun",
+    booktitle = "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+    month = nov,
+    year = "2019",
+    address = "Hong Kong, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/D19-1328",
+    doi = "10.18653/v1/D19-1328",
+    pages = "3336--3341",
+    abstract = "The task of bilingual dictionary induction (BDI) is commonly used for intrinsic evaluation of cross-lingual word embeddings. The largest dataset for BDI was generated automatically, so its quality is dubious. We study the composition and quality of the test sets for five diverse languages from this dataset, with concerning findings: (1) a quarter of the data consists of proper nouns, which can be hardly indicative of BDI performance, and (2) there are pervasive gaps in the gold-standard targets. These issues appear to affect the ranking between cross-lingual embedding systems on individual languages, and the overall degree to which the systems differ in performance. With proper nouns removed from the data, the margin between the top two systems included in the study grows from 3.4{\%} to 17.2{\%}. Manual verification of the predictions, on the other hand, reveals that gaps in the gold standard targets artificially inflate the margin between the two systems on English to Bulgarian BDI from 0.1{\%} to 6.7{\%}. We thus suggest that future research either avoids drawing conclusions from quantitative results on this BDI dataset, or accompanies such evaluation with rigorous error analysis.",
+}
+
+
+@inproceedings{hartmann-etal-2019-issue,
+    title = "Issue Framing in Online Discussion Fora",
+    author = "Hartmann, Mareike  and
+      Jansen, Tallulah  and
+      Augenstein, Isabelle  and
+      S{\o}gaard, Anders",
+    editor = "Burstein, Jill  and
+      Doran, Christy  and
+      Solorio, Thamar",
+    booktitle = "Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+    month = jun,
+    year = "2019",
+    address = "Minneapolis, Minnesota",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/N19-1142",
+    doi = "10.18653/v1/N19-1142",
+    pages = "1401--1407",
+    abstract = "In online discussion fora, speakers often make arguments for or against something, say birth control, by highlighting certain aspects of the topic. In social science, this is referred to as issue framing. In this paper, we introduce a new issue frame annotated corpus of online discussions. We explore to what extent models trained to detect issue frames in newswire and social media can be transferred to the domain of discussion fora, using a combination of multi-task and adversarial training, assuming only unlabeled training data in the target domain.",
+}
+
+
+@inproceedings{NEURIPS2019_d15426b9,
+ author = {Hartmann, Mareike and Kementchedjhieva, Yova and S\o gaard, Anders},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {H. Wallach and H. Larochelle and A. Beygelzimer and F. d\textquotesingle Alch\'{e}-Buc and E. Fox and R. Garnett},
+ pages = {},
+ publisher = {Curran Associates, Inc.},
+ title = {Comparing Unsupervised Word Translation Methods Step by Step},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2019/file/d15426b9c324676610fbb01360473ed8-Paper.pdf},
+ volume = {32},
+ year = {2019}
+}
+
+@article{golovchenko2018state,
+  title={State, media and civil society in the information warfare over Ukraine: citizen curators of digital disinformation},
+  author={Golovchenko, Yevgeniy and Hartmann, Mareike and Adler-Nissen, Rebecca},
+  journal={International affairs},
+  volume={94},
+  number={5},
+  pages={975--994},
+  year={2018},
+  publisher={Oxford University Press},
+  doi={10.1093/ia/iiy148}
+}
+
+
+@inproceedings{hartmann-etal-2018-unsupervised,
+    title = "Why is unsupervised alignment of {E}nglish embeddings from different algorithms so hard?",
+    author = "Hartmann, Mareike  and
+      Kementchedjhieva, Yova  and
+      S{\o}gaard, Anders",
+    editor = "Riloff, Ellen  and
+      Chiang, David  and
+      Hockenmaier, Julia  and
+      Tsujii, Jun{'}ichi",
+    booktitle = "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
+    month = oct # "-" # nov,
+    year = "2018",
+    address = "Brussels, Belgium",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/D18-1056",
+    doi = "10.18653/v1/D18-1056",
+    pages = "582--586",
+    abstract = "This paper presents a challenge to the community: Generative adversarial networks (GANs) can perfectly align independent English word embeddings induced using the same algorithm, based on distributional information alone; but fails to do so, for two different embeddings algorithms. Why is that? We believe understanding why, is key to understand both modern word embedding algorithms and the limitations and instability dynamics of GANs. This paper shows that (a) in all these cases, where alignment fails, there exists a linear transform between the two embeddings (so algorithm biases do not lead to non-linear differences), and (b) similar effects can not easily be obtained by varying hyper-parameters. One plausible suggestion based on our initial experiments is that the differences in the inductive biases of the embedding algorithms lead to an optimization landscape that is riddled with local optima, leading to a very small basin of convergence, but we present this more as a challenge paper than a technical contribution.",
+}
+
+@inproceedings{pedersen-etal-2018-danish,
+    title = "A {D}anish {F}rame{N}et Lexicon and an Annotated Corpus Used for Training and Evaluating a Semantic Frame Classifier",
+    author = "Pedersen, Bolette  and
+      Nimb, Sanni  and
+      S{\o}gaard, Anders  and
+      Hartmann, Mareike  and
+      Olsen, Sussi",
+    editor = "Calzolari, Nicoletta  and
+      Choukri, Khalid  and
+      Cieri, Christopher  and
+      Declerck, Thierry  and
+      Goggi, Sara  and
+      Hasida, Koiti  and
+      Isahara, Hitoshi  and
+      Maegaard, Bente  and
+      Mariani, Joseph  and
+      Mazo, H{\'e}l{\`e}ne  and
+      Moreno, Asuncion  and
+      Odijk, Jan  and
+      Piperidis, Stelios  and
+      Tokunaga, Takenobu",
+    booktitle = "Proceedings of the Eleventh International Conference on Language Resources and Evaluation ({LREC} 2018)",
+    month = may,
+    year = "2018",
+    address = "Miyazaki, Japan",
+    publisher = "European Language Resources Association (ELRA)",
+    url = "https://aclanthology.org/L18-1378",
+}
+
+
+
+@inproceedings{hartmann-sogaard-2018-limitations,
+    title = "Limitations of Cross-Lingual Learning from Image Search",
+    author = "Hartmann, Mareike  and
+      S{\o}gaard, Anders",
+    editor = "Augenstein, Isabelle  and
+      Cao, Kris  and
+      He, He  and
+      Hill, Felix  and
+      Gella, Spandana  and
+      Kiros, Jamie  and
+      Mei, Hongyuan  and
+      Misra, Dipendra",
+    booktitle = "Proceedings of the Third Workshop on Representation Learning for {NLP}",
+    month = jul,
+    year = "2018",
+    address = "Melbourne, Australia",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/W18-3021",
+    doi = "10.18653/v1/W18-3021",
+    pages = "159--163",
+    abstract = "Cross-lingual representation learning is an important step in making NLP scale to all the world{'}s languages. Previous work on bilingual lexicon induction suggests that it is possible to learn cross-lingual representations of words based on similarities between images associated with these words. However, that work focused (almost exclusively) on the translation of nouns only. Here, we investigate whether the meaning of other parts-of-speech (POS), in particular adjectives and verbs, can be learned in the same way. Our experiments across five language pairs indicate that previous work does not scale to the problem of learning cross-lingual representations beyond simple nouns.",
+}
